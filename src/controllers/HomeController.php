@@ -6,8 +6,6 @@ use \core\Controller;
 class HomeController extends Controller {
 
     public function index() {
-        //$this->render('home', ['nome' => 'Walls']);
-        //echo "oi";
         $posts = [
             ['titulo' => 'Titulo de teste 1', 'corpo' => 'Corpo de teste 1'],                
             ['titulo' => 'Titulo de teste 2', 'corpo' => 'Corpo de teste 2'],            

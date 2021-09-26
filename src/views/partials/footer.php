@@ -1,2 +1,6 @@
+<footer>
 <hr>
-<h2>Rodapé da Página</h2>
+<h3>Todos os direitos reservados</h3>
+</footer>
+</body>
+</html>
