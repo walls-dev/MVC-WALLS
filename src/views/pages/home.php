@@ -11,8 +11,8 @@
 <?php foreach($usuarios as $usuario):?>
     <tr>
             <td><?=$usuario['id'];?></td>
-            <td><?=$usuario['nome'];?></td>
-            <td><?=$usuario['email'];?></td>
+            <td><?=ucwords($usuario['nome']);?></td>
+            <td><?=strtolower($usuario['email']);?></td>
             <td>
                 <a href="<?=$base;?>/usuario/<?=$usuario['id']?>/editar">
                 <img width="20" src="<?=$base;?>/assets/images/document.png" alt="">
